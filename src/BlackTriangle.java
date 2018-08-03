@@ -1,6 +1,4 @@
-import java.util.Objects;
-
-public class BlackTriangle extends Triangle {
+public class BlackTriangle {
     final String COLOR = "Black";
 
     public BlackTriangle(Point x, Point y, Point z) {

@@ -1,4 +1,4 @@
-public class WhiteTriangle extends Triangle {
+public class WhiteTriangle {
     final String COLOR="White";
 
     public WhiteTriangle(Point x, Point y, Point z, String color) {
