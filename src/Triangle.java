@@ -1,3 +1,4 @@
+
 public abstract class Triangle {
     public Triangle(Point x, Point y, Point z) {
         this.x = x;
@@ -54,4 +55,4 @@ public abstract class Triangle {
                 ", z=" + z +
                 '}';
     }
-}
+
