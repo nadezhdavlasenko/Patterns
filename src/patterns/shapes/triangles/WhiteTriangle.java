@@ -1,17 +1,15 @@
-package patterns;
+package patterns.shapes.triangles;
+
+import patterns.point.Point;
+import patterns.shapes.Color;
 
 import java.util.Objects;
 
-public class WhiteTriangle extends Triangle{
-
-    final String COLOR="White";
+public class WhiteTriangle extends Triangle {
 
     public WhiteTriangle(Point x, Point y, Point z) {
         super(x, y, z);
-    }
-
-    public String getColor() {
-        return color;
+        setColor(Color.WHITE);
     }
 
     @Override

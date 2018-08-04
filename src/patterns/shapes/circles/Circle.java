@@ -2,9 +2,13 @@
  * Color of the circle can be either Color.WHITE or Color.BLACK
  */
 
-package patterns;
+package patterns.shapes.circles;
+
+import patterns.point.Point;
+import patterns.shapes.Color;
 
 public abstract class Circle {
+
     private Point center;
     private double r;
     private Color color;
@@ -58,8 +62,5 @@ public abstract class Circle {
         return (int) (17 + getCenter().hashCode() * 31 + getR() * 31 + getColor().hashCode() * 31);
     }
 
-    private enum Color{
-        WHITE,
-        BLACK
-    }
+
 }

@@ -1,6 +1,18 @@
-package patterns;
+package patterns.shapes.triangles;
+
+import patterns.point.Point;
+import patterns.shapes.Color;
+
+import java.util.Objects;
+
 
 public abstract class Triangle {
+
+    private Color color;
+    private Point x;
+    private Point y;
+    private Point z;
+
     public Triangle(Point x, Point y, Point z) {
         this.x = x;
         this.y = y;
@@ -30,6 +42,10 @@ public abstract class Triangle {
     public void setZ(Point z) {
         this.z = z;
     }
+
+    public Color getColor() { return color; }
+
+    public void setColor(Color color) { this.color = color; }
 
     @Override
     public boolean equals(Object o) {
