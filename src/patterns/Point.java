@@ -1,4 +1,4 @@
-package com.company;
+package patterns;
 
 public class Point {
     private int x;

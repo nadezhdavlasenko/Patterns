@@ -1,11 +1,13 @@
 package patterns;
 
-public class WhiteTriangle {
+import java.util.Objects;
+
+public class WhiteTriangle extends Triangle{
+
     final String COLOR="White";
 
-    public WhiteTriangle(Point x, Point y, Point z, String color) {
+    public WhiteTriangle(Point x, Point y, Point z) {
         super(x, y, z);
-        this.color = color;
     }
 
     public String getColor() {
