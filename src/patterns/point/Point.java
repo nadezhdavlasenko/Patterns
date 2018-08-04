@@ -4,7 +4,7 @@ public class Point {
     private int x;
     private int y;
 
-    public Point(int x, int y){
+    public Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -26,11 +26,6 @@ public class Point {
     }
 
     @Override
-    public String toString() {
-        return "x = " + getX() + " y = " + getY();
-    }
-
-    @Override
     public int hashCode() {
         return (int) (17 + getX() * 31 + getY() * 17);
     }
@@ -43,4 +38,10 @@ public class Point {
         return Double.compare(point.getX(), getX()) == 0 &&
                 Double.compare(point.getY(), getY()) == 0;
     }
+
+    @Override
+    public String toString() {
+        return "x = " + getX() + " y = " + getY();
+    }
+
 }

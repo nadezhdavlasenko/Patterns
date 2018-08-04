@@ -17,4 +17,5 @@ public class WhiteFactory extends BaseFactory {
     public Circle createCircle(Point o, double r) {
         return new WhiteCircle(o, r);
     }
+
 }
