@@ -1,4 +1,4 @@
-package patterns;
+package patterns.point;
 
 public class Point {
     private int x;

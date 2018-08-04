@@ -1,9 +1,9 @@
 package patterns.factory;
 
 
-import patterns.Point;
-import patterns.Triangle;
-import patterns.Circle;
+import patterns.point.Point;
+import patterns.shapes.triangles.Triangle;
+import patterns.shapes.circles.Circle;
 
 /**
  * Created by Julia on 03.08.2018

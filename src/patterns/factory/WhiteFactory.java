@@ -1,6 +1,9 @@
-package patterns;
+package patterns.factory;
 
-import patterns.factory.BaseFactory;
+import patterns.shapes.circles.Circle;
+import patterns.point.Point;
+import patterns.shapes.triangles.Triangle;
+import patterns.shapes.triangles.WhiteTriangle;
 
 public class WhiteFactory extends BaseFactory {
     public WhiteFactory() {
