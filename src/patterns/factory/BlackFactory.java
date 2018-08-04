@@ -1,5 +1,6 @@
 package patterns.factory;
 
+import patterns.shapes.circles.BlackCircle;
 import patterns.shapes.triangles.BlackTriangle;
 import patterns.shapes.circles.Circle;
 import patterns.point.Point;

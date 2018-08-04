@@ -13,7 +13,7 @@ public abstract class Circle {
     private double r;
     private Color color;
 
-    public Circle(Point center, double r, Color color){
+    public Circle(Point center, double r){
         this.center = center;
         this.r = r;
     }

@@ -2,6 +2,7 @@ package patterns.factory;
 
 import patterns.shapes.circles.Circle;
 import patterns.point.Point;
+import patterns.shapes.circles.WhiteCircle;
 import patterns.shapes.triangles.Triangle;
 import patterns.shapes.triangles.WhiteTriangle;
 
