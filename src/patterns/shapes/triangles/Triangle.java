@@ -37,5 +37,6 @@ public abstract class Triangle {
     public void setZ(Point z) {
         this.z = z;
     }
+
 }
 

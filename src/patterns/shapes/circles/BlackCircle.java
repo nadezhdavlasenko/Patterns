@@ -34,4 +34,5 @@ public class BlackCircle extends Circle {
     public String toString() {
         return getCenter().toString() + " r = " + getR() + " Color = " + getColor();
     }
+
 }
