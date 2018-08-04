@@ -18,19 +18,19 @@ public class WhiteTriangle extends Triangle {
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         WhiteTriangle that = (WhiteTriangle) o;
-        return Objects.equals(color, that.color);
+        return Objects.equals(getColor(), that.getColor());
     }
 
     @Override
     public int hashCode() {
 
-        return Objects.hash(super.hashCode(), color);
+        return Objects.hash(super.hashCode(), getColor());
     }
 
     @Override
     public String toString() {
         return "Triangle{" +
-                "color='" + color + '\'' +
+                "color='" + getColor() + '\'' +
                 '}';
     }
 }
