@@ -2,7 +2,7 @@
  * Color of the circle can be either Color.WHITE or Color.BLACK
  */
 
-package com.company;
+package patterns;
 
 public abstract class Circle {
     private Point center;

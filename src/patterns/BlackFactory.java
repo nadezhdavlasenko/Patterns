@@ -1,14 +1,16 @@
 package patterns;
 
-public class BlackFactory {
+import patterns.factory.BaseFactory;
+
+public class BlackFactory extends BaseFactory{
 
     @Override
-    public Triangle createBlackTriangle(Point x, Point y, Point z) {
+    public Triangle createTriangle(Point x, Point y, Point z) {
         return new BlackTriangle(x, y, z);
     }
 
     @Override
-    public Circle createBlackCircle(Point o, double r) {
+    public Circle createCircle(Point o, double r) {
         return new BlackCircle(o, r);
     }
 }

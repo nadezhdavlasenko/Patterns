@@ -35,7 +35,7 @@ public abstract class Triangle {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        AbstractTriangle that = (AbstractTriangle) o;
+        Triangle that = (Triangle) o;
         return Objects.equals(x, that.x) &&
                 Objects.equals(y, that.y) &&
                 Objects.equals(z, that.z);

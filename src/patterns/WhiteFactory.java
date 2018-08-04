@@ -1,5 +1,7 @@
 package patterns;
 
+import patterns.factory.BaseFactory;
+
 public class WhiteFactory extends BaseFactory {
     public WhiteFactory() {
 

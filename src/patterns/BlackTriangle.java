@@ -1,6 +1,9 @@
 package patterns;
 
-public class BlackTriangle {
+import java.util.Objects;
+
+public class BlackTriangle extends Triangle{
+
     final String COLOR = "Black";
 
     public BlackTriangle(Point x, Point y, Point z) {
