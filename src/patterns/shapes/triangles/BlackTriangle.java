@@ -1,6 +1,7 @@
 package patterns.shapes.triangles;
 
 import patterns.point.Point;
+import patterns.shapes.Color;
 
 import java.util.Objects;
 
@@ -9,6 +10,7 @@ public class BlackTriangle extends Triangle {
 
     public BlackTriangle(Point x, Point y, Point z) {
         super(x, y, z);
+        setColor(Color.BLACK);
     }
 
     @Override
@@ -29,7 +31,10 @@ public class BlackTriangle extends Triangle {
     @Override
     public String toString() {
         return "Triangle{" +
-                "COLOR='" + getColor() + '\'' +
+                "Point 1: " + getX() + "; " +
+                "Point 2: " + getY() + "; " +
+                "Point 3: " + getZ() + "; " +
+                " color= " + getColor()  +
                 '}';
     }
 }

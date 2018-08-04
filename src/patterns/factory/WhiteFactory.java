@@ -7,9 +7,6 @@ import patterns.shapes.triangles.Triangle;
 import patterns.shapes.triangles.WhiteTriangle;
 
 public class WhiteFactory extends BaseFactory {
-    public WhiteFactory() {
-
-    }
 
     @Override
     public Triangle createTriangle(Point x, Point y, Point z) {
