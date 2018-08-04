@@ -7,11 +7,14 @@ import java.util.Objects;
 
 public class BlackTriangle extends Triangle {
 
+    private Color color;
 
     public BlackTriangle(Point x, Point y, Point z) {
         super(x, y, z);
-        setColor(Color.BLACK);
+        color = Color.BLACK;
     }
+
+    public Color getColor() { return color; }
 
     @Override
     public boolean equals(Object o) {

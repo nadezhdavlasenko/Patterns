@@ -7,10 +7,16 @@ import java.util.Objects;
 
 public class WhiteTriangle extends Triangle {
 
+    private Color color;
+
     public WhiteTriangle(Point x, Point y, Point z) {
         super(x, y, z);
-        setColor(Color.WHITE);
+        color = Color.WHITE;
     }
+
+    public Color getColor() { return color; }
+
+    public void setColor(Color color) { this.color = color; }
 
     @Override
     public boolean equals(Object o) {
