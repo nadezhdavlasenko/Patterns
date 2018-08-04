@@ -22,16 +22,15 @@ public class Main {
         Circle circle = factory.createCircle(centerCircle,5.2);
         Triangle triangle = factory.createTriangle(firstVertexTriangle, secondVertexTriangle, thirdVertexTriangle);
 
-        System.out.println("Circle created: " + circle.toString());
-        System.out.println("Triangle created: " + triangle.toString());
+        System.out.println("Circle created: " + circle);
+        System.out.println("Triangle created: " + triangle);
 
         factory = AbstractFactory.getFactory(Color.WHITE);
 
         circle = factory.createCircle(centerCircle, 5.2);
         triangle = factory.createTriangle(firstVertexTriangle, secondVertexTriangle,thirdVertexTriangle);
 
-        System.out.println("Circle created: " + circle.toString());
-        System.out.println("Triangle created: " + triangle.toString());
-
+        System.out.println("Circle created: " + circle);
+        System.out.println("Triangle created: " + triangle);
     }
 }
