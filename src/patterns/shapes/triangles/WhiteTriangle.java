@@ -27,10 +27,13 @@ public class WhiteTriangle extends Triangle {
         return Objects.hash(super.hashCode(), getColor());
     }
 
-    @Override
+        @Override
     public String toString() {
         return "Triangle{" +
-                "color='" + getColor() + '\'' +
-                '}';
+                    "Point 1: " + getX() + "; " +
+                    "Point 2: " + getY() + "; " +
+                    "Point 3: " + getZ() + "; " +
+                    " color= " + getColor()  +
+                    '}';
     }
 }
