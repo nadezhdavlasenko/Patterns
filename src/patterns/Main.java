@@ -1,3 +1,5 @@
+package patterns;
+
 /**
  * Created by Julia on 03.08.2018
  */
