@@ -1,3 +1,5 @@
+package patterns;
+
 public class WhiteFactory extends BaseFactory {
     public WhiteFactory() {
 

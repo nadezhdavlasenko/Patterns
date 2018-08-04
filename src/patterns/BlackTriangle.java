@@ -1,3 +1,5 @@
+package patterns;
+
 public class BlackTriangle {
     final String COLOR = "Black";
 

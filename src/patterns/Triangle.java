@@ -1,3 +1,4 @@
+package patterns;
 
 public abstract class Triangle {
     public Triangle(Point x, Point y, Point z) {

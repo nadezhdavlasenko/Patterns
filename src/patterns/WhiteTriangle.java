@@ -1,3 +1,5 @@
+package patterns;
+
 public class WhiteTriangle {
     final String COLOR="White";
 
