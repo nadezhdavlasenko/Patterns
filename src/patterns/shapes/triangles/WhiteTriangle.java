@@ -7,9 +7,14 @@ import java.util.Objects;
 
 public class WhiteTriangle extends Triangle {
 
+    private Color color = Color.WHITE;
+
     public WhiteTriangle(Point x, Point y, Point z) {
         super(x, y, z);
-        setColor(Color.WHITE);
+    }
+
+    public Color getColor() {
+        return color;
     }
 
     @Override
@@ -18,22 +23,22 @@ public class WhiteTriangle extends Triangle {
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         WhiteTriangle that = (WhiteTriangle) o;
-        return Objects.equals(getColor(), that.getColor());
+        return getX() == that.getX() && getY() == that.getY() && getZ() == that.getZ();
     }
 
     @Override
     public int hashCode() {
-
-        return Objects.hash(super.hashCode(), getColor());
+        return Objects.hash(getX(), getY(), getZ());
     }
 
-        @Override
+    @Override
     public String toString() {
         return "Triangle{" +
-                    "Point 1: " + getX() + "; " +
-                    "Point 2: " + getY() + "; " +
-                    "Point 3: " + getZ() + "; " +
-                    " color= " + getColor()  +
-                    '}';
+                "Point 1: " + getX() + "; " +
+                "Point 2: " + getY() + "; " +
+                "Point 3: " + getZ() + "; " +
+                " color= " + getColor() +
+                '}';
     }
+
 }
