@@ -1,8 +1,9 @@
 package patterns.factory;
 
-import patterns.point.Point;
 import patterns.shapes.triangles.Triangle;
 import patterns.shapes.circles.Circle;
+
+import java.awt.*;
 
 /**
  * Created by Julia on 03.08.2018

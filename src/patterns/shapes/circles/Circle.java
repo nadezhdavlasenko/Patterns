@@ -4,7 +4,8 @@
 
 package patterns.shapes.circles;
 
-import patterns.point.Point;
+
+import java.awt.*;
 
 public abstract class Circle {
 

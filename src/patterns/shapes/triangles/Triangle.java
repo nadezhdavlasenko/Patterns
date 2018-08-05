@@ -1,6 +1,7 @@
 package patterns.shapes.triangles;
 
-import patterns.point.Point;
+
+import java.awt.*;
 
 public abstract class Triangle {
 

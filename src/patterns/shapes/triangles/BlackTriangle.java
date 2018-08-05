@@ -1,8 +1,8 @@
 package patterns.shapes.triangles;
 
-import patterns.point.Point;
 import patterns.shapes.Color;
 
+import java.awt.*;
 import java.util.Objects;
 
 public class BlackTriangle extends Triangle {
