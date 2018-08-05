@@ -2,10 +2,11 @@ package patterns;
 
 import patterns.factory.AbstractFactory;
 import patterns.factory.BaseFactory;
-import patterns.point.Point;
 import patterns.shapes.Color;
 import patterns.shapes.circles.Circle;
 import patterns.shapes.triangles.Triangle;
+
+import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {

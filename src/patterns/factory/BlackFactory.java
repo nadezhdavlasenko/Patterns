@@ -3,8 +3,9 @@ package patterns.factory;
 import patterns.shapes.circles.BlackCircle;
 import patterns.shapes.triangles.BlackTriangle;
 import patterns.shapes.circles.Circle;
-import patterns.point.Point;
 import patterns.shapes.triangles.Triangle;
+
+import java.awt.*;
 
 public class BlackFactory extends BaseFactory {
 
